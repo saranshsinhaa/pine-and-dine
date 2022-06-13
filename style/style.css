@@ -1,0 +1,225 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+
+.home{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../assets/home-bg.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.nav-index{
+    display: flex;
+    padding: 0% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-index img{
+    width: 500px;
+    height: 350px;
+}
+
+.nav-bar-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-bar-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-bar-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.nav-bar-links ul li a:hover{
+    
+    font-size: 32px;
+    transition: 1s;
+}
+
+.home-text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.home-text-box h1{
+    font-size: 74px;
+}
+.home-text-box p{
+    font-size: 34px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.home-text-box p a{
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.about-btn{
+    color: white;
+    border: 2px solid grey ;
+    padding: 12px 34px;
+}
+
+.about-btn:hover{
+    background: orange;
+    transition: 1s;
+}
+/* ----------------------------------------------------------- */
+
+.about{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../assets/about-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.nav-about{
+    display: flex;
+    padding: 0% 6%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.about-text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.about-text-box h1{
+    font-size: 40px;
+}
+
+.about-text-box p{
+    margin: 10px;
+    text-align: left;
+}
+
+.about-img-box{
+    position: absolute;
+    top: 75%;
+}
+
+
+
+.about-img-box img{
+    width: 250px;
+    height: 150px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+.about-img-box img:hover{
+    border: 2px solid orange;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------- */
+.contact{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../assets/contact-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.nav-contact{
+    display: flex;
+    padding: 0% 6%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.contact-text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.contact-text-box h1{
+    font-size: 40px;
+}
+
+.contact-text-box p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+
+.contact-phn{
+    padding: 5px 5px;
+    border: 2px solid grey;
+    text-decoration: none;
+    color: white;
+}
+.contact-phn:hover{
+    background: orange;
+    transition: 1s;
+}
+
+.contact-text-box i{
+    margin-bottom: 20px;
+}
+
+.contact-icons{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.contact-icons img{
+    width: 70px;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+
+.contact-icons img:hover{
+    width: 100px;
+    transition: 1s;
+}
+
+
